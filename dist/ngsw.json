@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/0.ed9c1637df53616f91ab.chunk.js",
+        "/inline.cf6621799c793712aef5.bundle.js",
+        "/main.f5ebcce838c6a07ad420.bundle.js",
+        "/polyfills.6548e129670a7b76560c.bundle.js",
+        "/scripts.e82c032b38078fc0a970.bundle.js",
+        "/styles.3902ecea2350adfc8599.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/android-chrome-192x192.png",
+        "/assets/android-chrome-512x512.png",
+        "/assets/apple-touch-icon.png",
+        "/assets/browserconfig.xml",
+        "/assets/favicon-16x16.png",
+        "/assets/favicon-32x32.png",
+        "/assets/favicon.ico",
+        "/assets/mstile-150x150.png",
+        "/assets/pdf-test.pdf",
+        "/assets/safari-pinned-tab.svg",
+        "/assets/site.webmanifest"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "PWA Client",
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 60000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/0.ed9c1637df53616f91ab.chunk.js": "a9c04f579e1e651a09b2a0b3aa60d684460eed8b",
+    "/assets/android-chrome-192x192.png": "31a83e7d8e0eba8673700200be0689dd1b8ac4a1",
+    "/inline.cf6621799c793712aef5.bundle.js": "f2e47cbb7621ac70d564d558598508e76c8c8cd0",
+    "/assets/android-chrome-512x512.png": "dd9a7292f7a0a98b25c7fa63391d56bfe6d8f48a",
+    "/main.f5ebcce838c6a07ad420.bundle.js": "0de6c5a156bbbd6a29d2e1d32e1dd16268f612b9",
+    "/assets/apple-touch-icon.png": "e166bfbc33e5b0ba73431a4a877c08b7b1ae40ee",
+    "/polyfills.6548e129670a7b76560c.bundle.js": "bed93daa55e3775d67f8231d564f56579a0afba7",
+    "/assets/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
+    "/scripts.e82c032b38078fc0a970.bundle.js": "4073d5deee1a5014a0f825c9b4dd533b89e714ee",
+    "/assets/favicon-16x16.png": "4a88984803eada8bcf995b0678b0794d22f7f094",
+    "/styles.3902ecea2350adfc8599.bundle.css": "18e09a215e34d50fc5b4940dfbe47647959a4de6",
+    "/assets/favicon-32x32.png": "a4a711c80bbb89094ec7a92997f27f9e43fb3650",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/favicon.ico": "c304969bdf31a8061b507a112365eed4fe0e3890",
+    "/index.html": "4ffd2a560af8a520cf77c32bb8ac8401b9dcc8bb",
+    "/assets/mstile-150x150.png": "21641e959e5dc7a65ab384869ae4c3458d41ec77",
+    "/assets/pdf-test.pdf": "175704ddbd779cda7fb7d393d01a4c017d339ef1",
+    "/assets/safari-pinned-tab.svg": "d6d7e92fd1399f7665a336a4e4fed0075121c549",
+    "/assets/site.webmanifest": "13e5aa58eb2182d8ace63266856c8cc29c47c083"
+  }
+}
